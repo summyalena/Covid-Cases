@@ -1,7 +1,7 @@
 .headersHome {
   display: flex;
   justify-content: space-between;
-  padding: 1em 0.6em;
+  padding: 1em 5em;
   color: rgba(255, 255, 255, 0.726);
 }
 
@@ -14,5 +14,6 @@
   .headersHome {
     display: flex;
     justify-content: space-between;
+    padding: 1em 1.4em;
   }
 }
