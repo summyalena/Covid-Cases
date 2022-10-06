@@ -1,0 +1,18 @@
+.headersHome {
+    display: flex;
+    justify-content: space-between;
+    padding: 1em 0.6em;
+    color: rgba(255, 255, 255, 0.726);
+}
+
+.fonts {
+  display: flex;
+  gap: 15px;
+}
+
+@media (max-width: 790px){
+    .headersHome {
+        display: flex;
+        justify-content: space-between;
+    }
+}
