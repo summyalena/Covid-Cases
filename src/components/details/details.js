@@ -6,7 +6,6 @@ import styles from './details.module.css';
 
 function Details() {
   const covidCases = useSelector((state) => state.covidCases.country);
-  console.log(covidCases);
   const Images = {
     lat: require('../../images/compass.png'),
     confirmed: require('../../images/confirmation.png'),
