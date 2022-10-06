@@ -11,7 +11,6 @@ import loader from '../../images/1492.gif';
 function CovidCase() {
   const dispatch = useDispatch();
   const loading = useSelector((state) => state.covidCases.loading);
-  console.log(loading);
   const handleCovidClick = (name) => {
     dispatch(actions.filterCases(name));
   };
