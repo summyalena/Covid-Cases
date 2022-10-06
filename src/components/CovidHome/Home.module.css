@@ -1,0 +1,35 @@
+.homeContainer {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 1em;
+    background-color: rgb(90, 138, 232);
+}
+
+.text {
+    color: rgba(255, 255, 255, 0.767);
+    width: 230px;
+}
+
+img {
+    width: 150px;
+    height: 150px;
+}
+
+@media(max-width: 790px){
+    .homeContainer {
+        justify-content: space-evenly;
+        display: flex;
+        padding-left: 2em;
+        gap: 0.3em;
+    }
+}
+
+@media(max-width: 490px){
+    .homeContainer {
+        justify-content: space-evenly;
+        display: flex;
+        /* padding-left: 1.3em; */
+        gap: 0.6em;
+    }
+}
