@@ -1,27 +1,24 @@
 
 * {
-    padding: 0;
-    margin: 0;
+  padding: 0;
+  margin: 0;
 }
 
 .breakdown h4 {
-    font-size: 1em;
-    font-family: 'Times New Roman', Times, serif;
-    color: rgba(255, 253, 251, 0.514);
-    padding: 0.7em 0;
+  font-size: 1em;
+  font-family: 'Times New Roman', Times, serif;
+  color: rgba(255, 253, 251, 0.514);
+  padding: 0.7em 0;
 }
 
 .apiList {
-    list-style: none;
-    display: flex;
-    flex-direction: column;
-    
+  list-style: none;
+  display: flex;
+  flex-direction: column;
 }
 
 .apiList li {
-    padding: 1.2em 0.3em;
-    color: rgba(255, 253, 251, 0.514);
-    border: 0.2em solid rgba(139, 198, 247, 0.048) ;
-
+  padding: 1.2em 0.3em;
+  color: rgba(255, 253, 251, 0.514);
+  border: 0.2em solid rgba(139, 198, 247, 0.048);
 }
-
