@@ -8,7 +8,6 @@ export const fetchCovidCases = createAsyncThunk('fetch-data', async () => {
   const data = await response.data;
   const { rawData } = data;
   const result = rawData.slice(0, 10);
-  console.log(result);
   return result;
 });
 
@@ -23,12 +22,8 @@ const covidSlice = createSlice({
   initialState,
   reducers: {
     filterCases(state, action) {
-      console.log(state.covidCases);
       // eslint-disable-next-line no-param-reassign, max-len
       state.country = state.covidCases.filter((covid) => covid.Country_Region === action.payload);
-      console.log(action.payload);
-      console.log(state.covidCases);
-      console.log(action);
     },
   },
   extraReducers: {
