@@ -1,24 +1,28 @@
 import React from 'react';
-import { useDispatch } from 'react-redux';
+import { useDispatch, useSelector } from 'react-redux';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCircleArrowRight } from '@fortawesome/free-solid-svg-icons';
 import { Link } from 'react-router-dom';
 import styles from './covidCases.module.css';
 import { actions } from '../../redux/covid/covid';
 import IMAGES from '../../images/images';
+import loader from '../../images/1492.gif';
 
 function CovidCase() {
   const dispatch = useDispatch();
-
+  const loading = useSelector((state) => state.covidCases.loading);
+  console.log(loading);
   const handleCovidClick = (name) => {
     dispatch(actions.filterCases(name));
   };
+
+  if (loading) return <img className={styles.loader} src={loader} alt=" " />;
 
   const data = [
     {
       id: 1,
       name: 'Afghanistan',
-      image: IMAGES.afghanistan,
+      image: IMAGES.Afghanistan,
     },
     {
       id: 2,
