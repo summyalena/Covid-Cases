@@ -16,7 +16,13 @@ function CovidCase() {
     dispatch(actions.filterCases(name));
   };
 
-  if (loading) return <img className={styles.loader} src={loader} alt=" " />;
+  if (loading) {
+    return (
+      <div className={styles.loader}>
+        <img src={loader} alt=" " />
+      </div>
+    );
+  }
 
   const data = [
     {
