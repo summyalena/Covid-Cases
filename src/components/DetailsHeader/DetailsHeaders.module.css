@@ -1,0 +1,30 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.1em 1em;
+    z-index: 100px;
+    border-bottom: 0.03em solid rgba(255, 253, 251, 0.068) ;
+}
+
+.navName {
+    list-style: none;
+    display: flex;
+    gap: 1em;
+}
+
+.navName li {
+   color: rgba(255, 253, 251, 0.671);
+   font-size: 1em;
+   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.icon {
+   color: rgba(255, 253, 251, 0.671);
+}
+
+.icons {
+    display: flex;
+    gap: 1em;
+    color: rgba(255, 253, 251, 0.671);
+}
