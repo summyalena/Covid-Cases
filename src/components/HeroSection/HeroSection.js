@@ -1,10 +1,8 @@
 import React from 'react';
-// import { useDispatch } from 'react-redux';
 import home from '../../images/petri-dish-removebg-preview.png';
-import styles from './Home.module.css';
-// import { fetchCovidCases } from '../../redux/covid/covid';
+import styles from './HeroSection.module.css';
 
-function Home() {
+function HeroSection() {
   return (
     <div className={styles.homeContainer}>
       <div className={styles.text}>
@@ -17,4 +15,4 @@ function Home() {
   );
 }
 
-export default Home;
+export default HeroSection;

@@ -1,6 +1,6 @@
 import React from 'react';
 import { useSelector } from 'react-redux';
-import styles from './Details.module.css';
+import styles from './DetailsHeroSection.module.css';
 import image from '../../images/pcr-test.png';
 
 function DetailsHome() {

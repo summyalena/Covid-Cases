@@ -1,5 +1,5 @@
 import React from 'react';
-import Detail from './components/details/details';
+import Detail from './components/DetailsHome/detailsCategory';
 import DetailsHeader from './components/DetailsHeader/DetailsHeader';
 
 function Details() {

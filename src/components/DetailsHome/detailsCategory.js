@@ -1,8 +1,8 @@
 /* eslint-disable global-require */
 import React from 'react';
 import { useSelector } from 'react-redux';
-import DetailsHome from '../DetailsHome/DetailsHome';
-import styles from './details.module.css';
+import DetailsHome from '../DetailsHeroSection/DetailsHeroSection';
+import styles from './detailsCategory.module.css';
 
 function Details() {
   const covidCases = useSelector((state) => state.covidCases.country);

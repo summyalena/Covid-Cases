@@ -38,5 +38,5 @@ Contributions, issues, and feature requests are welcome!
 Give a ⭐️ if you like this project!
 
 ## Acknowledgments
-
 -This project was inspired by [Microverse](https://www.microverse.org)
+- Design acknowledgment goes to  Nelson Sakwa the author of the original design, as required by the Creative Commons License.
