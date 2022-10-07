@@ -3,16 +3,19 @@
 This project is an SPA application that allows one make enquiry about a data statistics of covid cases in a particular country.
 
 ## Project Snapshot
-![](../../Pictures/SnapshotsWorks/covid.JPG)
 
-![](../../Pictures/SnapshotsWorks/covid2.JPG)
+![covid](https://user-images.githubusercontent.com/95056164/194458845-b1853cb1-f660-4db3-a089-275a71894bda.JPG)
+
+![covid2](https://user-images.githubusercontent.com/95056164/194458863-a99a333c-6671-4b6f-8e00-427995e4f699.JPG)
+
+
 ### Live Demo
 https://covidcheckssplend.netlify.app/
 
 
 ##### For validation detection using Webhint Run
 
-npx hint .
+- npx hint .
 
 ## Available Scripts
 
@@ -26,7 +29,7 @@ once you have cloned the repo
 👤 **Alena Okolike**
 
 - GitHub: [@summyalena](https://github.com/summyalena)
-- LinkedIn: [Assumpta Okolike](https://www.linkedin.com/in/okolike-assumpta/)
+- LinkedIn: [Assumpta Okolike](https://www.linkedin.com/in/assumpta-okolike/)
 
 ## 🤝 Contributing
 
