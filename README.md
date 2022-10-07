@@ -2,6 +2,10 @@
 
 This project is an SPA application that allows one make enquiry about a data statistics of covid cases in a particular country.
 
+## Technologies used: 
+- Reactjs 
+- Test library: jest
+
 ## Project Snapshot
 
 ![covid](https://user-images.githubusercontent.com/95056164/194458845-b1853cb1-f660-4db3-a089-275a71894bda.JPG)
