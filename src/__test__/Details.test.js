@@ -1,7 +1,7 @@
 import React from 'react';
 import renderer from 'react-test-renderer';
 import { Provider } from 'react-redux';
-import Details from '../components/details/details';
+import Details from '../components/DetailsHome/detailsCategory';
 import store from '../redux/configureStore';
 
 it('testing-covidCase', () => {
