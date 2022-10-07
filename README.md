@@ -16,6 +16,8 @@ This project is an SPA application that allows one make enquiry about a data sta
 ### Live Demo
 https://covidcheckssplend.netlify.app/
 
+### Presentation:
+https://www.loom.com/share/5f7614fab40d47068112291e4fa3216f
 
 ##### For validation detection using Webhint Run
 
