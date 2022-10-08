@@ -1,0 +1,41 @@
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.breakdown h4 {
+  font-size: 2em;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  color: rgba(255, 253, 251, 0.514);
+  padding: 1em 3em;
+}
+
+.apiList {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+}
+
+.apiList li {
+  padding: 1.2em 6em;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  color: rgba(255, 253, 251, 0.514);
+  border: 0.2em solid rgba(139, 198, 247, 0.048);
+}
+
+@media (max-width: 790px) {
+  .apiList li {
+    padding: 1.2em 1.5em;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    border: 0.2em solid rgba(139, 198, 247, 0.048);
+  }
+
+  .breakdown h4 {
+    font-size: 1.4em;
+    padding: 1em 1em;
+  }
+}

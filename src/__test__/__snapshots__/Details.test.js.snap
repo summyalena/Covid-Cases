@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`testing-covidCase 1`] = `
+<div>
+  <div />
+  <div
+    className="breakdown"
+  >
+    <h4>
+      Country Breakdown
+    </h4>
+  </div>
+</div>
+`;
