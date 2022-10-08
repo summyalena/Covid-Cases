@@ -81,13 +81,13 @@
   color: rgba(255, 255, 255, 0.877);
   font-size: 2em;
   padding: 0.2em 5em;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: 500;
 }
 
 .container h2 {
   color: rgba(255, 253, 251, 0.815);
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: 500;
   margin-top: 1em;
   font-size: 1.5em;
@@ -111,6 +111,20 @@
   object-fit: cover;
 }
 
+form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2em;
+}
+
+button {
+  background-color: #87aae9;
+  padding: 0.5em 1em;
+  border-radius: 0.5em;
+  border: none;
+}
+
 @media (max-width: 790px) {
   .container {
     display: grid;
@@ -127,11 +141,16 @@
     height: 4em;
   }
 
-  .font {
+  font {
     padding-left: 2.6em;
     padding-bottom: 3em;
     padding-top: 0.2em;
     font-size: 1.3em;
+    color: black;
+  }
+
+  input {
+    text-transform: capitalize;
   }
 
   .heading h3 {
